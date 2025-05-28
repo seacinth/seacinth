@@ -1,0 +1,45 @@
+body {
+font-family: 'MS UI Gothic', 'MS Gothic', 'Cotham Sans', sans-serif;
+background-image: url("");
+background-size: repeat;
+height: 100%;
+}
+
+.container {
+max-width: 1000px;
+margin: 50px auto;
+display: grid;
+grid-gap: 20px;
+grid-template-columns: 200px minmax(0, 1fr);
+}
+
+header {
+border: black 2px solid;
+border-radius: 10px;
+grid-row: 1 / 2;
+grid-column: 1 / 3;
+height: 200px;
+background-color: #fff;
+}
+
+nav {
+border: black 2px solid;
+grid-row: 2 / 3;
+grid-column: 1 / 2;
+height: 500px;
+}
+
+main {
+border: black 2px solid;
+border-radius: 10px;
+grid-row: 2 / 3;
+grid-column: 2 / 3;
+height: 500px;
+background-color: #fff;
+}
+
+footer {
+border: black 2px solid;
+grid-row: 3 / 4;
+grid-column: 1 / 3;
+}
