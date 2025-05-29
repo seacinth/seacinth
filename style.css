@@ -1,6 +1,6 @@
 body {
 font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
-background-image: url("");
+background-image: url("images/blueraspberry.png");
 background-size: repeat;
 background-color: #fff;
 height: 100%;
@@ -23,15 +23,15 @@ height: 40px;
 margin: 15px;
 padding: 0 1em;
 background-image: linear-gradient(180deg, #eaf5c6, #e2f5a4, #c3dd6e, #b3cc62);
-color: #fff7db;
+color: #fff9e3;
 box-shadow: 4px 4px #7f4b4d;
 text-shadow: 1px 1px #59d328;
 }
 
 .outercontainer {
-border: 3px solid black;
+border: 3px solid #7f4b4d;
 background-color: #fff;
-border-radius: 5px;
+border-radius: 10px;
 width: 900px;
 height: max-content;
 margin: 50px auto;
