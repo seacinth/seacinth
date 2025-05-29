@@ -1,5 +1,5 @@
 body {
-font-family: 'MS UI Gothic', 'MS Gothic', 'Cotham Sans', sans-serif;
+font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
 background-image: url("");
 background-size: repeat;
 height: 100%;
@@ -7,6 +7,7 @@ height: 100%;
 
 h4 {
 border: 2px dashed #1d3d70;
+border-radius: 5px;
 width: 150px;
 height: 40px;
 margin: 15px;
@@ -18,7 +19,7 @@ background-color: #a7c0e8;
 border: 3px solid;
 border-radius: 15px;
 width: 1050px;
-height: 850px;
+height: max-content;
 margin: 50px auto;
 }
 
@@ -41,6 +42,7 @@ background-color: #fff;
 
 nav {
 border: black 2px solid;
+border-radius: 10px;
 grid-row: 2 / 3;
 grid-column: 1 / 2;
 height: max-content;
