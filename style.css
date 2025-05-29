@@ -5,6 +5,15 @@ background-size: repeat;
 height: 100%;
 }
 
+a {
+text-decoration: none;
+}
+
+nav ul {
+list-style-type: none;
+text-align: left;
+}
+
 h4 {
 border: 2px dashed #1d3d70;
 border-radius: 5px;
@@ -17,7 +26,7 @@ background-color: #a7c0e8;
 
 .outercontainer {
 border: 3px solid;
-border-radius: 15px;
+border-radius: 5px;
 width: 1050px;
 height: max-content;
 margin: 50px auto;
