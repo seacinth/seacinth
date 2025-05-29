@@ -5,6 +5,14 @@ background-size: repeat;
 height: 100%;
 }
 
+h4 {
+border: 2px dashed #1d3d70;
+width: 150px;
+margin: 15px;
+padding: 0 1em;
+background-color: #a7c0e8;
+}
+
 .outercontainer {
 border: 3px solid;
 border-radius: 15px;
@@ -34,7 +42,7 @@ nav {
 border: black 2px solid;
 grid-row: 2 / 3;
 grid-column: 1 / 2;
-height: 500px;
+height: max-content;
 text-align: center;
 }
 
