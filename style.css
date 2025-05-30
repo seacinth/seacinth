@@ -15,7 +15,21 @@ list-style-type: none;
 text-align: left;
 }
 
-h4 {
+.content {
+border: 3px solid #2d47ba;
+border-radius: 20px;
+width: 150px;
+height: 40px;
+margin: 15px;
+padding: 0 1em;
+background-image: linear-gradient(180deg, #cfeeff, #9cdcff, #35b8ff, #2d47ba);
+color: #e3ebff;
+box-shadow: 4px 4px #90f5e6;
+text-shadow: 1px 1px #152c8f;
+text-align: center;
+}
+
+.projects {
 border: 3px solid #69b849;
 border-radius: 15px;
 width: 150px;
@@ -26,10 +40,25 @@ background-image: linear-gradient(180deg, #eaf5c6, #e2f5a4, #c3dd6e, #b3cc62);
 color: #fff9e3;
 box-shadow: 4px 4px #7f4b4d;
 text-shadow: 1px 1px #59d328;
+text-align: center;
+}
+
+.update {
+border: 3px solid #ad478c;
+border-radius: 15px;
+width: 150px;
+height: 40px;
+margin: 15px;
+padding: 0 1em;
+background-image: linear-gradient(180deg, #f2bfe1, #f59dd8, #eb7fc8, #ad478c);
+color: #fcebf7;
+box-shadow: 4px 4px #ffde70;
+text-shadow: 1px 1px #ad478c;
+text-align: center;
 }
 
 .outercontainer {
-border: 3px solid #7f4b4d;
+border: 2px solid #7f4b4d;
 background-color: #fff;
 border-radius: 10px;
 width: 900px;
@@ -81,7 +110,7 @@ scrollbar-width: thin;
 
 footer {
 border: black 2px solid;
-border-radius: 15px;
+border-radius: 10px;
 background-color: #fff;
 grid-row: 3 / 4;
 grid-column: 1 / 3;
