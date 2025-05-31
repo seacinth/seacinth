@@ -1,5 +1,5 @@
 @media (max-width: 800px) {
-.container {
+.layout {
 grid-template:
 "header header"
 "nav nav"
