@@ -6,28 +6,19 @@ background-color: #fff;
 height: 100%;
 }
 
-.outerlayout {
-background-color: #fff;
-border-radius: 10px;
-border: solid 3px black;
-width: 850px;
-height: max-content;
-margin: 25px auto;
-}
-
 .layout {
-max-width: 800px;
 display: grid;
-grid-gap: 15px;
+grid-gap: 25px;
 grid-template:
 "header header"
 "nav nav"
-"sidebar main"
-"box box"
+"main sidebar"
+"main box"
 "footer footer"
-/ 1fr 2fr;
-margin: 30px auto;
-grid-template-columns: 220px minmax(0, 1fr);
+/ 1fr 3fr;
+margin: 50px auto;
+max-width: 980px;
+grid-template-columns: 765px minmax(0, 1fr);
 }
 
 header { 
@@ -77,10 +68,30 @@ transform: scale(1.1);
 }
 /*---nav bar css end--- */
 
+main {
+grid-area: main;
+border: 2px solid black;
+text-align: left;
+padding: 15px;
+overflow-y: auto;
+overflow-x: hidden;
+scrollbar-color: #610b1f white;
+scrollbar-width: thin;
+height: 500px;
+}
+
 aside {
 grid-area: sidebar;
 border: 2px solid black;
-height: 300px;
+height: 250px;
+}
+
+.box {
+grid-area: box;
+border: 2px solid black;
+justify-self: right;
+width: 185px;
+height: 250px;
 }
 
 .project {
@@ -97,27 +108,7 @@ color: #fff;
 border-bottom: solid 2px black;
 }
 
-main {
-grid-area: main;
-border: 2px solid black;
-height: max-content;
-text-align: left;
-padding: 15px;
-overflow-y: auto;
-overflow-x: hidden;
-scrollbar-color: #610b1f white;
-scrollbar-width: thin;
-}
-
-.box {
-grid-area: box;
-border: 2px solid black;
-height: 250px;
-width: 216px;
-}
-
 footer {
 grid-area: footer;
-text-align: center;
 border: 2px solid black;
 }
