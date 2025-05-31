@@ -18,7 +18,7 @@ grid-template:
 "footer footer"
 / 1fr 2fr;
 margin: 50px auto;
-grid-template-columns: 220px minmax(0, 1fr);
+grid-template-columns: 200px minmax(0, 1fr);
 }
 
 header { 
@@ -99,8 +99,8 @@ padding: 15px;
 .box {
 grid-area: box;
 border: 2px solid black;
-height: 200px;
-width: 218px;
+height: 250px;
+width: 198px;
 }
 
 footer {
