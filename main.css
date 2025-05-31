@@ -1,0 +1,86 @@
+body {
+font-family: 'MS UI Gothic', 'MS Gothic', 'Courier New', sans-serif;
+background-image: url("images/.png");
+background-repeat: repeat;
+background-color: #fff;
+height: 100%;
+}
+
+.layout {
+display: grid;
+grid-gap: 25px;
+grid-template:
+"header header"
+"nav nav"
+"main main"
+"footer footer"
+/ 1fr 3fr;
+margin: 50px auto;
+max-width: 980px;
+grid-template-columns: 765px minmax(0, 1fr);
+}
+
+header { 
+grid-area: header;
+border: 2px solid black;
+height: 200px;
+}
+
+/*---nav bar css start--- */
+nav {
+grid-area: nav;
+text-align: center;
+}
+
+nav a, nav ul {
+text-decoration: none;
+list-style-type: none;
+}
+
+nav li {
+display: inline-block;
+position: relative;
+height:2em;
+line-height:2em;
+margin: 5px;
+}
+
+nav li a, nav li span {
+display: inline-block;
+background-image: linear-gradient(180deg, #cfeeff, #9cdcff, #35b8ff, #2d47ba);
+color: white;
+padding: 5px 15px;
+border: 2px solid #2d47ba;
+border-radius: 25px;
+font-weight: bold;
+text-shadow: 1px 1px #152c8f;
+box-shadow: 4px 4px #90f5e6;
+transition: 0.3s ease-in-out;
+}
+
+nav li a:hover {
+background-image:  linear-gradient(180deg, #f2bfe1, #f59dd8, #eb7fc8, #ad478c);
+border-color: #ad478c;
+text-shadow: 1px 1px #ad478c;
+box-shadow: 4px 4px #ffde70;
+transform: scale(1.1);
+}
+/*---nav bar css end--- */
+
+main {
+grid-area: main;
+border: 2px solid black;
+text-align: left;
+padding: 15px;
+overflow-y: auto;
+overflow-x: hidden;
+scrollbar-color: #610b1f white;
+scrollbar-width: thin;
+height: 500px;
+}
+
+footer {
+grid-area: footer;
+border: 2px solid black;
+text-align: center;
+}
