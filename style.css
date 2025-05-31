@@ -48,22 +48,22 @@ margin: 5px;
 
 nav li a, nav li span {
 display: inline-block;
-background-image: linear-gradient(180deg, #cfeeff, #9cdcff, #35b8ff, #2d47ba);
+background-image: linear-gradient(180deg, #fff, #cff7ff, #91edff, #6eccfa, #54c3fa, #239dd9);
 color: white;
 padding: 5px 15px;
-border: 2px solid #2d47ba;
+border: 2px solid #299ecc;
 border-radius: 25px;
 font-weight: bold;
-text-shadow: 1px 1px #152c8f;
+text-shadow: 2px 1px #0f79a3;
 box-shadow: 4px 4px #90f5e6;
 transition: 0.3s ease-in-out;
 }
 
 nav li a:hover {
-background-image:  linear-gradient(180deg, #f2bfe1, #f59dd8, #eb7fc8, #ad478c);
+background-image:  linear-gradient(180deg, #fff, #ffd9f3, #f59dd8, #eb7fc8, #ed6bc6, #e15db9);
 border-color: #ad478c;
-text-shadow: 1px 1px #ad478c;
-box-shadow: 4px 4px #ffde70;
+text-shadow: 2px 1px #ad478c;
+box-shadow: 4px 4px #ff73b2;
 transform: scale(1.1);
 }
 /*---nav bar css end--- */
@@ -77,7 +77,7 @@ background-color: #fff;
 
 main {
 grid-area: main;
-background-image: url("images/blueraspberry.png"); 
+background-image: url("image/blueraspberry.png"); 
 border: 2px solid black;
 border-radius: 10px;
 text-align: left;
@@ -89,6 +89,7 @@ aside {
 grid-area: sidebar;
 border: 2px solid black;
 height: 250px;
+border-radius: 10px 10px 5px 5px;
 }
 
 .box {
@@ -100,10 +101,11 @@ height: 250px;
 }
 
 .project {
-background-image:  linear-gradient(180deg, #f2bfe1, #f59dd8, #eb7fc8, #ad478c);
+background-image: linear-gradient(180deg, #fff, #ffd9f3, #f59dd8, #eb7fc8, #ed6bc6, #e15db9);
 padding: 15px;
 color: #fff;
 border-bottom: solid 2px black;
+border-radius: 10px 10px 0px 0px;
 }
 
 .updatelog {
