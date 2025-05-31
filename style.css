@@ -74,6 +74,20 @@ border: 2px solid black;
 height: 300px;
 }
 
+.project {
+background-image:  linear-gradient(180deg, #f2bfe1, #f59dd8, #eb7fc8, #ad478c);
+padding: 15px;
+color: #fff;
+border-bottom: solid 2px black;
+}
+
+.updatelog {
+background-image: linear-gradient(180deg, #eaf5c6, #e2f5a4, #c3dd6e, #b3cc62);
+padding: 15px;
+color: #fff;
+border-bottom: solid 2px black;
+}
+
 main {
 grid-area: main;
 border: 2px solid black;
