@@ -10,7 +10,7 @@ height: 100%;
 background-color: #fff;
 border: solid 3px;
 width: 980px;
-height: max-content;
+height: 1050px;
 margin: -45px auto;
 }
 
@@ -25,7 +25,7 @@ grid-template:
 "box box"
 "footer footer"
 / 1fr 2fr;
-margin: 50px auto;
+margin: 70px auto;
 grid-template-columns: 220px minmax(0, 1fr);
 }
 
