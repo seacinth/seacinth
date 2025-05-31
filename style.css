@@ -113,34 +113,3 @@ grid-area: footer;
 border: 2px solid black;
 text-align: center;
 }
-
-@media (max-width: 800px) {
-  .layout {
-    grid-template:
-      "header"
-      "nav"
-      "main"
-      "sidebar"
-      "box"
-      "footer";
-    grid-template-columns: 1fr;
-    max-width: 100vw;
-    margin: 10px;
-    grid-gap: 15px;
-  }
-  header, main, .sidebar, .box, footer {
-    width: 100%;
-    height: auto;
-    min-width: 0;
-    box-sizing: border-box;
-  }
-  nav li {
-    display: block;
-    margin: 8px 0;
-    text-align: center;
-  }
-  .box {
-    justify-self: stretch;
-    width: 100%;
-  }
-}
