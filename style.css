@@ -8,10 +8,11 @@ height: 100%;
 
 .outerlayout {
 background-color: #fff;
-border: solid 3px;
+border-radius: 10px;
+border: solid 3px black;
 width: 850px;
-height: 1050px;
-margin: -45px auto;
+height: max-content;
+margin: 10px auto;
 }
 
 .layout {
@@ -25,7 +26,7 @@ grid-template:
 "box box"
 "footer footer"
 / 1fr 2fr;
-margin: 70px auto;
+margin: 30px auto;
 grid-template-columns: 220px minmax(0, 1fr);
 }
 
