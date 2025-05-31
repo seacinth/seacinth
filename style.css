@@ -77,7 +77,7 @@ background-color: #fff;
 
 main {
 grid-area: main;
-background: url(image/blueraspberry.png); 
+background: url("image/blueraspberry.png"); 
 border: 2px solid black;
 border-radius: 10px;
 text-align: left;
