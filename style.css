@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 500px) {
 .layout {
 grid-template:
 "header header"
@@ -6,6 +6,12 @@ grid-template:
 "main sidebar"
 "main box"
 "footer footer"
+  }  
+}
+
+@media (max-width: 500px) {
+  aside, .box {
+    display: none;
   }  
 }
 
