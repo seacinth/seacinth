@@ -68,15 +68,20 @@ transform: scale(1.1);
 }
 /*---nav bar css end--- */
 
+.wrapper {
+border: black dashed 2px;
+height: 465px;
+padding: 15px;
+background-color: #fff;
+}
+
 main {
 grid-area: main;
+background: url(image/blueraspberry.png); 
 border: 2px solid black;
+border-radius: 10px;
 text-align: left;
 padding: 15px;
-overflow-y: auto;
-overflow-x: hidden;
-scrollbar-color: #610b1f white;
-scrollbar-width: thin;
 height: 500px;
 }
 
