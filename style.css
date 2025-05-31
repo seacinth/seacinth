@@ -6,6 +6,15 @@ background-color: #fff;
 height: 100%;
 }
 
+.outerlayout {
+border: 3px solid #000;
+background-color: #fff;
+border-radius: 10px;
+width: 980px;
+height: max-content;
+margin: 50px auto;
+}
+
 .layout {
 max-width: 900px;
 display: grid;
