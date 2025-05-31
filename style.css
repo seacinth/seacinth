@@ -14,6 +14,7 @@ grid-template:
 "header header"
 "nav nav"
 "sidebar main"
+"box box"
 "footer footer"
 / 1fr 2fr;
 margin: 50px auto;
@@ -70,13 +71,22 @@ transform: scale(1.1);
 aside {
 grid-area: sidebar;
 border: 2px solid black;
-
+height: 300px;
 }
 
 main {
 grid-area: main;
 border: 2px solid black;
 height: max-content;
+text-align: left;
+padding: 15px;
+}
+
+.box {
+grid-area: box;
+border: 2px solid black;
+height: 200px;
+width: 218px;
 }
 
 footer {
