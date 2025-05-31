@@ -94,6 +94,10 @@ border: 2px solid black;
 height: max-content;
 text-align: left;
 padding: 15px;
+overflow-y: auto;
+overflow-x: hidden;
+scrollbar-color: #610b1f white;
+scrollbar-width: thin;
 }
 
 .box {
