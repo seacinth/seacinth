@@ -1,127 +1,86 @@
 body {
-font-family: 'MS UI Gothic', 'MS Gothic', 'Courier', sans-serif;
+font-family: 'MS UI Gothic', 'MS Gothic', 'Courier New', sans-serif;
 background-image: url("images/.png");
-background-size: repeat;
+background-repeat: repeat;
 background-color: #fff;
 height: 100%;
 }
 
-a {
-text-decoration: none;
-}
-
-nav ul {
-list-style-type: none;
-text-align: left;
-}
-
-.content {
-border: 3px solid #2d47ba;
-border-radius: 20px;
-width: 150px;
-height: 40px;
-margin: 15px;
-padding: 0 1em;
-background-image: linear-gradient(180deg, #cfeeff, #9cdcff, #35b8ff, #2d47ba);
-color: #e3ebff;
-box-shadow: 4px 4px #90f5e6;
-text-shadow: 1px 1px #152c8f;
-text-align: center;
-}
-
-.projects {
-border: 3px solid #69b849;
-border-radius: 20px;
-width: 150px;
-height: 40px;
-margin: 15px;
-padding: 0 1em;
-background-image: linear-gradient(180deg, #eaf5c6, #e2f5a4, #c3dd6e, #b3cc62);
-color: #fff9e3;
-box-shadow: 4px 4px #7f4b4d;
-text-shadow: 1px 1px #59d328;
-text-align: center;
-}
-
-.update {
-border: 3px solid #ad478c;
-border-radius: 20px;
-width: 150px;
-height: 40px;
-margin: 15px;
-padding: 0 1em;
-background-image: linear-gradient(180deg, #f2bfe1, #f59dd8, #eb7fc8, #ad478c);
-color: #fcebf7;
-box-shadow: 4px 4px #ffde70;
-text-shadow: 1px 1px #ad478c;
-text-align: center;
-}
-
-.outercontainer {
-border: 4px solid #b8b8b8;
-background-color: #e9e9e9;
-border-radius: 10px;
-width: 900px;
-height: max-content;
-margin: 50px auto;
-}
-
-.container {
-max-width: 850px;
-margin: 35px auto;
+.layout {
+max-width: 800px;
 display: grid;
-grid-gap: 20px;
+grid-gap: 15px;
+grid-template:
+"header header"
+"nav nav"
+"sidebar main"
+"footer footer"
+/ 1fr 2fr;
+margin: 50px auto;
 grid-template-columns: 220px minmax(0, 1fr);
 }
 
-header {
-border: black 2px solid;
-border-radius: 10px;
-grid-row: 1 / 2;
-grid-column: 1 / 3;
-height: 200px;
-background-color: #fff;
+header { 
+grid-area: header;
+border: 2px solid black;
+height: 150px;
 }
 
+/*---nav bar css start--- */
 nav {
-border: black 2px solid;
-border-radius: 10px;
-background-color: #fff;
-grid-row: 2 / 3;
-grid-column: 1 / 2;
-height: max-content;
+grid-area: nav;
 text-align: center;
 }
 
-.maingradient {
-border-radius: 10px;
+nav a, nav ul {
+text-decoration: none;
+list-style-type: none;
+}
+
+nav li {
+display: inline-block;
+position: relative;
+height:2em;
+line-height:2em;
+margin: 5px;
+}
+
+nav li a, nav li span {
+display: inline-block;
 background-image: linear-gradient(180deg, #cfeeff, #9cdcff, #35b8ff, #2d47ba);
-height: 15px;
-width: 900px;
-margin: -20px;
-padding: 10px;
+color: white;
+padding: 5px 15px;
+border: 2px solid #2d47ba;
+border-radius: 25px;
+font-weight: bold;
+text-shadow: 1px 1px #152c8f;
+box-shadow: 4px 4px #90f5e6;
+transition: 0.3s ease-in-out;
+}
+
+nav li a:hover {
+background-image:  linear-gradient(180deg, #f2bfe1, #f59dd8, #eb7fc8, #ad478c);
+border-color: #ad478c;
+text-shadow: 1px 1px #ad478c;
+box-shadow: 4px 4px #ffde70;
+transform: scale(1.1);
+}
+/*---nav bar css end--- */
+
+aside {
+grid-area: sidebar;
+border: 2px solid black;
+
 }
 
 main {
-border: black 2px solid;
-border-radius: 10px;
-grid-row: 2 / 3;
-grid-column: 2 / 3;
+grid-area: main;
+border: 2px solid black;
 height: max-content;
-background-color: #fff;
-text-align: left;
-padding: 5px;
-overflow-y: auto;
-overflow-x: hidden;
-scrollbar-color: #610b1f white;
-scrollbar-width: thin;
 }
 
 footer {
-border: black 2px solid;
-border-radius: 10px;
-background-color: #fff;
-grid-row: 3 / 4;
-grid-column: 1 / 3;
+grid-area: footer;
 text-align: center;
+border: 2px solid black;
 }
