@@ -67,20 +67,26 @@ transform: scale(1.1);
 }
 /*---nav bar css end--- */
 
+.wrapper {
+border: black dashed 2px;
+height: 465px;
+padding: 15px;
+background-color: #fffefa;
+}
+
 main {
 grid-area: main;
 border: 2px solid black;
 text-align: left;
 padding: 15px;
-overflow-y: auto;
-overflow-x: hidden;
-scrollbar-color: #610b1f white;
-scrollbar-width: thin;
 height: 500px;
 }
 
 footer {
 grid-area: footer;
-border: 2px solid black;
+border-radius: 10px;
 text-align: center;
+background-image: linear-gradient(80deg, #fff, #cff7ff, #91edff, #6eccfa, #cff7ff, #fff);
+color: #fff;
+text-shadow: 1px 1px #0f79a3;
 }
