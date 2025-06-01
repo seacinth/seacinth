@@ -1,13 +1,5 @@
-/* nanum-pen-script-regular - latin */
-@font-face {
-  font-family: 'Nanum Pen Script';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/nanum-pen-script-v25-latin-regular.woff2') format('woff2');
-}
-
 body {
-font-family: 'Nanum Pen Script';
+font-family: ;
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
