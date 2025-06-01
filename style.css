@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'nanum_penregular';
+    src: url('nanumpenscript-regular-webfont.woff2') format('woff2'),
+         url('nanumpenscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-font-family: 'nanum_penregular';
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
