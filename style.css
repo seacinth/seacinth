@@ -60,9 +60,9 @@ transition: 0.3s ease-in-out;
 }
 
 nav li a:hover {
-background-image: linear-gradient(180deg, #fff, #ffd9f3, #f59dd8, #eb7fc8, #ed6bc6, #e15db9);
+background-image:  linear-gradient(180deg, #fff, #ffd9f3, #f59dd8, #eb7fc8, #ed6bc6, #e15db9);
 border-color: #ad478c;
-text-shadow: 1px 1px #ad478c;
+text-shadow: 2px 1px #ad478c;
 box-shadow: 4px 4px #ffde70;
 transform: scale(1.1);
 }
@@ -72,14 +72,14 @@ transform: scale(1.1);
 border: black dashed 2px;
 height: 465px;
 padding: 15px;
-background-color: #fffefa;
+background-image: linear-gradient(0deg, #fffefa 415px, #ffde70 15px, #fae18e, #ffefba, #fff);
 }
 
 main {
 grid-area: main;
 background-image: url("image/blueraspberry.png"); 
 border: 2px solid black;
-border-radius: 10px;
+border-radius: 10px 10px 5px 5px;
 text-align: left;
 padding: 15px;
 height: 500px;
