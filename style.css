@@ -3,7 +3,7 @@
   font-family: 'Nanum Pen Script';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/nanum-pen-script-v25-latin-regular.woff2") format('woff2');
+  src: url('fonts/nanum-pen-script-v25-latin-regular.woff2') format('woff2');
 }
 
 body {
