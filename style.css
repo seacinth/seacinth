@@ -72,14 +72,14 @@ transform: scale(1.1);
 border: black dashed 2px;
 height: 465px;
 padding: 15px;
-background-image: linear-gradient(0deg, #fffefa 415px, #ffde70 15px, #fae18e, #ffefba, #fff);
+background-image: linear-gradient(0deg, #fffefa 415px, #ffbb69 15px, #ffde70, #fae18e, #ffefba, #fff);
 }
 
 main {
 grid-area: main;
 background-image: url("image/blueraspberry.png"); 
 border: 2px solid black;
-border-radius: 10px 10px 5px 5px;
+border-radius: 15px 15px 5px 5px;
 text-align: left;
 padding: 15px;
 height: 500px;
@@ -89,7 +89,7 @@ aside {
 grid-area: sidebar;
 border: 2px solid black;
 height: 250px;
-border-radius: 10px 10px 5px 5px;
+border-radius: 15px 15px 5px 5px;
 background-color: #fffefa;
 }
 
@@ -99,7 +99,7 @@ border: 2px solid black;
 justify-self: right;
 width: 185px;
 height: 250px;
-border-radius: 10px 10px 5px 5px;
+border-radius: 15px 15px 5px 5px;
 background-color: #fffefa;
 }
 
@@ -108,7 +108,7 @@ background-image: linear-gradient(180deg, #fff, #ffd9f3, #f59dd8, #eb7fc8, #ed6b
 padding: 15px;
 color: #fff;
 border-bottom: solid 2px #611e3a;
-border-radius: 10px 10px 0px 0px;
+border-radius: 15px 15px 0px 0px;
 text-shadow: 2px 1px #ad478c
 }
 
