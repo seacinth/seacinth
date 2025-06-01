@@ -71,7 +71,7 @@ transform: scale(1.1);
 border: black dashed 2px;
 height: 465px;
 padding: 15px;
-background-image: linear-gradient(0deg, #fffefa 415px, #ffde70 15px, #fae18e, #ffefba, #fff);
+background-image: linear-gradient(0deg, #fffefa 415px, #ffbb69 15px, #ffde70, #fae18e, #ffefba, #fff);
 }
 
 main {
