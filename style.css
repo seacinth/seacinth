@@ -1,3 +1,11 @@
+/* nanum-pen-script-regular - latin */
+@font-face {
+  font-family: 'Nanum Pen Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/nanum-pen-script-v25-latin-regular.woff2') format('woff2');
+}
+
 body {
 font-family: 'Nanum Pen Script';
 background-image: url("images/.png");
@@ -117,14 +125,6 @@ grid-area: footer;
 border-radius: 10px;
 text-align: center;
 background-image: linear-gradient(80deg, #fff, #cff7ff, #91edff, #6eccfa, #cff7ff, #fff);
-
-/* nanum-pen-script-regular - latin */
-@font-face {
-  font-family: 'Nanum Pen Script';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/nanum-pen-script-v25-latin-regular.woff2') format('woff2');
-}
 color: #fff;
 text-shadow: 1px 1px #0f79a3;
 }
