@@ -4,7 +4,7 @@ src: url("https://seacinth.github.io/seacinth/fonts/NotePaper-regular.otf") form
 }
 
 body {
-font-family: 'Notepaper';
+font-family: 'MS UI Gothic', 'Notepaper';
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
