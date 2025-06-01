@@ -1,10 +1,10 @@
 @font-face {
-font-family: "NanumPen"; 
-src: url("https://seacinth.github.io/seacinth/fonts/NanumPenScript-Regular.ttf") format("truetype");
+font-family: "Notepaper"; 
+src: url("https://seacinth.github.io/seacinth/fonts/NotePaper-regular.otf") format("opentype");
 }
 
 body {
-font-family: 'NanumPen';
+font-family: 'Notepaper';
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
