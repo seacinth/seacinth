@@ -1,5 +1,10 @@
+@font-face {
+font-family: "Notepaper"; 
+src: url("/fonts/NotePaper-regular.otf") format("opentype"); */
+
+
 body {
-font-family: ;
+font-family: 'Notepaper';
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
