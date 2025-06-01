@@ -72,7 +72,7 @@ transform: scale(1.1);
 border: black dashed 2px;
 height: 465px;
 padding: 15px;
-background-color: #fff;
+background-color: #fffefa;
 }
 
 main {
@@ -90,6 +90,7 @@ grid-area: sidebar;
 border: 2px solid black;
 height: 250px;
 border-radius: 10px 10px 5px 5px;
+background-color: #fffefa;
 }
 
 .box {
@@ -98,25 +99,24 @@ border: 2px solid black;
 justify-self: right;
 width: 185px;
 height: 250px;
+border-radius: 10px 10px 5px 5px;
+background-color: #fffefa;
 }
 
-.project {
+.sidebar {
 background-image: linear-gradient(180deg, #fff, #ffd9f3, #f59dd8, #eb7fc8, #ed6bc6, #e15db9);
 padding: 15px;
 color: #fff;
-border-bottom: solid 2px black;
+border-bottom: solid 2px #611e3a;
 border-radius: 10px 10px 0px 0px;
-}
-
-.updatelog {
-background-image: linear-gradient(180deg, #eaf5c6, #e2f5a4, #c3dd6e, #b3cc62);
-padding: 15px;
-color: #fff;
-border-bottom: solid 2px black;
+text-shadow: 2px 1px #ad478c
 }
 
 footer {
 grid-area: footer;
-border: 2px solid black;
+border-radius: 10px;
 text-align: center;
+background-image: linear-gradient(80deg, #fff, #cff7ff, #91edff, #6eccfa, #cff7ff, #fff);
+color: #fff;
+text-shadow: 1px 1px #0f79a3;
 }
