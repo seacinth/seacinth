@@ -36,7 +36,7 @@ background-color: #fff;
 header {
 grid-area: header;
 border: 1px solid black;
-height: 180px;
+height: 150px;
 }
 
 /*---nav bar css start--- */
