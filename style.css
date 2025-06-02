@@ -4,7 +4,7 @@ src: url("https://seacinth.github.io/fonts/NotePaper-regular.otf") format("opent
 }
 
 body {
-font-family: 'MS UI Gothic', 'Notepaper';
+font-family: 'MS UI Gothic','Notepaper';
 cursor: url("images/keythillskey.png"), auto;
 background-image: url("images/.png");
 background-repeat: repeat;
@@ -22,11 +22,11 @@ cursor: url("images/keythillskey.png"), auto;
 }
 
 .outerlayout {
-border: 1px solid black;
+border: 1px solid #3d323d;
 width: 725px;
 margin: 15px auto;
 height: max-content;
-background-color: #fff;
+background-color: #fdfdfd;
 }
 
 .layout {
@@ -40,13 +40,14 @@ grid-template:
 / 1fr 2fr;
 margin: 15px auto;
 max-width: 700px;
-background-color: #fff;
+background-color: #fdfdfd;
 }
 
 header {
 grid-area: header;
-border: 1px solid black;
+border: 1px solid #3d323d;
 height: 150px;
+background-color: #fdfdfd;
 }
 
 /*---nav bar css start--- */
@@ -81,7 +82,7 @@ transform: scale(1.2);
 
 main {
 grid-area: main;
-border: 1px solid black;
+border: 1px solid #3d323d;
 height: 500px;
 background-color: #fffefc;
 }
