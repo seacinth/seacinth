@@ -1,10 +1,10 @@
 @font-face {
-font-family: "GochiHand"; 
-src: url("https://seacinth.github.io/fonts/GochiHand-Regular.ttf") format("truetype");
+font-family: "Notepaper"; 
+src: url("https://seacinth.github.io/fonts/NotePaper-regular.otf") format("opentype");
 }
 
 body {
-font-family: 'GochiHand';
+font-family: 'Notepaper';
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
