@@ -9,6 +9,7 @@ background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
 height: 100%;
+color: #332733;
 }
 
 .outerlayout {
@@ -73,7 +74,7 @@ main {
 grid-area: main;
 border: 1px solid black;
 height: 500px;
-background-color: #f9f9f9;
+background-color: #fffefc;
 }
 
 main p, main h3 {
@@ -81,12 +82,11 @@ padding: 10px;
 }
 
 .mainbox {
-background-image: linear-gradient(180deg, #f9f9f9, #cffae8, #b1e3ce, #99cfb8, #649e85);
+background-image: linear-gradient(180deg, #fffefc, #6e6463, #5e5251, #4a3f3d, #362c2b);
 padding: 15px;
-color: #fff;
+color: #fdfaf5;
 border-bottom: solid 1px #256870;
-border-radius: 15px 15px 0px 0px;
-text-shadow: 2px 1px #37848e;
+text-shadow: 2px 1px #211b1b;
 }
 
 footer {
