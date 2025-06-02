@@ -5,7 +5,7 @@ src: url("https://seacinth.github.io/fonts/NotePaper-regular.otf") format("opent
 
 body {
 font-family: 'MS UI Gothic', 'Notepaper';
-cursor: url("images/keythillskey.png"), auto;
+cursor: url("images/keythillskey.png"), auto !important;
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
