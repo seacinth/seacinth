@@ -3,17 +3,22 @@ font-family: "Notepaper";
 src: url("https://seacinth.github.io/fonts/NotePaper-regular.otf") format("opentype");
 }
 
-html {
-cursor: url("images/keythillskey.png"), auto;
-}
-
 body {
 font-family: 'MS UI Gothic', 'Notepaper';
+cursor: url("images/keythillskey.png"), auto;
 background-image: url("images/.png");
 background-repeat: repeat;
 background-color: #fff;
 height: 100%;
 color: #332733;
+}
+
+a:hover { 
+cursor: url("images/keythillskey.png"), auto;
+  }
+  
+.auto {
+cursor: url("images/keythillskey.png"), auto;
 }
 
 .outerlayout {
