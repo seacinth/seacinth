@@ -85,6 +85,7 @@ grid-area: main;
 border: 1px solid #3d323d;
 height: 500px;
 background-image: url("images/polkadots.png");
+background-repeat: repeat;
 }
 
 main p, main h3 {
