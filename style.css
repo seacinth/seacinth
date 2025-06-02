@@ -45,9 +45,9 @@ nav {
 grid-area: nav;
 text-align: center;
 letter-spacing: 2px;
-background-image: linear-gradient(80deg, #fff, #bdf6ff, #a2eaf5, #75ccd9, #fff);
+background-image: linear-gradient(80deg, #fdfdfd, #f2dad3, #e6c9c1, #f2dad3, #fdfdfd);
 color: #fff;
-text-shadow: 1px 1px #0f79a3;
+text-shadow: 1px 1px #bf998e;
 }
 
 nav a, nav ul {
@@ -93,7 +93,7 @@ footer {
 grid-area: footer;
 text-align: center;
 font-size: 15px;
-background-image: linear-gradient(80deg, #fff, #bdf6ff, #a2eaf5, #75ccd9, #fff);
+background-image: linear-gradient(80deg, #fdfdfd, #f2dad3, #e6c9c1, #f2dad3, #fdfdfd);
 color: #fff;
-text-shadow: 1px 1px #0f79a3;
+text-shadow: 1px 1px #bf998e;
 }
