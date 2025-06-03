@@ -84,8 +84,7 @@ main {
 grid-area: main;
 border: 1px solid #3d323d;
 height: max-content;
-background-image: url("images/polkadotdot.png");
-background-size: cover;
+background-color: #fffefc;
 }
 
 main p, main h3 {
