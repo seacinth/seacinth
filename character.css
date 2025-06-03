@@ -87,6 +87,11 @@ height: max-content;
 background-image: url("images/polkadotdot.png");
 }
 
+.main img {
+  height: 100%;
+  width: 100%;
+}
+
 main p, main h3 {
 padding: 10px;
 text-align: center;
