@@ -87,7 +87,7 @@ height: max-content;
 background-image: url("images/polkadotdot.png");
 }
 
-.main img {
+main img {
   height: 100%;
   width: 100%;
 }
